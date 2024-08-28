@@ -1,41 +1,164 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Greenhouse Gases</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
   <section class="header">
     <nav>
       <a href="index.html"><img src="images/Think Green.png"></a>
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">Causes</a></li>
+          <li><a href="Causes.html">Causes</a></li>
           <li><a href="">Consequences</a></li>
           <li><a href="">Take action</a></li>
-          <li><a href="">Spare</a></li>
+          <li><a href="">Extra</a></li>
         </ul>
       </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
     <div class="text-box">
       <h1>Greenhouse Gases</h1>
-      <p>Greenhouse Gases blah blah blah blah blah blah blah blah 
-         blah blah blah blah <br> blah blah blah blah blah blah
+      <div class="par" id="par">
+      <p>Greenhouse Gases blah blah blah blah blah blah 
+         blah 
+         blah blah blah blah blah <br> blah blah blah 
+         blah blah blah
       </p>
-      <a href="" class="hero-btn">Visit us to learn more</a>
+      <a href="" class="hero-btn">Visit us to learn 
+         more</a>
+      </div>
+      
   
   </section>
 
+
+   <!----- Causes ---->
+
+   <section class="Causes">  
+    <h1>Causes</h1>
+     <p>Blah blah blah blah blah blah blah blah blah 
+        blah</p>
+
+     <div class="row">
+       <div class="causes-col">
+         <h3>Write text here</h3>
+         <p>blah blah blah blah blah blah blah blah blah blah 
+          blah blah blah blah blah blah blah blah blah blah 
+          blah blah blah blah blah blah blah blah blah blah 
+          blah blah</p>
+     </div>
+       <div class="causes-col">
+            <h3>Write text here</h3>
+            <p>blah blah blah blah blah blah blah blah blah 
+               blah blah blah blah blah blah blah blah blah 
+               blah blah blah blah blah blah blah blah blah 
+               blah blah blah blah blah</p>
+        </div>
+       <div class="causes-col">
+            <h3>Write text here</h3>
+            <p>blah blah blah blah blah blah blah blah blah 
+               blah blah blah blah blah blah blah blah blah 
+               blah bla blah blah blah blah blah blah blah 
+               blah blah blah blah blah</p>
+        </div>
+   
+   
+   
+   </section>
+  
+  <!----- Consequences ---->
+
+    <section class="Consequences">
+     <h1>Consequences</h1>
+      <p>Blah  blah blah blah blah blah blah </p>
+
+      <div class="row">
+        <div class="Consequences-col">
+          <img src="images/image13.jpg">
+          <div class="layer">
+            </div>       
+        </div>
+        <div class="Consequences-col">
+            <img src="images/image11.jpg">
+            <div class="layer">
+              </div>       
+        </div>
+        <div class="Consequences-col">
+            <img src="images/image12.jpg">
+            <div class="layer">
+              </div>       
+        </div>
+     </div>
+      
+    </secton>
+
+   <!----- Take Action ---->
+   <section class="TakeAction">
+      <h1>Take Action</h1>
+      <p>Blah blah blah blah blah blah blah</p>
+      
+      <div class="row">
+        <div class="TakeAction-col">
+          <img src="images/image14.jpg">
+          <h3>Blah blah blah</h3>
+          <p>Blah blah blah blah blah blah blah blah 
+             blah </p>
+        </div>
+        <div class="TakeAction-col">
+          <img src="images/image15.jpg">
+          <h3>Blah blah blah</h3>
+          <p>Blah blah blah blah blah blah blah blah 
+             blah </p>
+        </div>
+        <div class="TakeAction-col">
+          <img src="images/image16.jpg">
+          <h3>Blah blah blah</h3>
+          <p>Blah blah blah blah blah blah blah blah 
+             blah </p>
+        </div>
+      </div>
+   
+   
+   </section>
+
+  <!----- extra ---->
+
+  <secton class="Extra">
+     <h1>Extra</h1>
+      <p>Blah  blah blah blah blah 
+         blah blah </p>
+    <div class="row">
+      <div class="Extra-col">
+        <img src="images/greenpeacelogo.jpg">
+        <div>
+          <p>Text text text text text text text 
+             text</p>
+        </div>
+      </div>  
+      <div class="Extra-col">
+        <img src="images/thegifttrust.png">
+        <div>
+          <p>Text text text text text text text 
+             text</p>
+        </div>
+      </div>  
+    </div>
+  
+    <!------JavaScript for Toggle Menu------>
+    <script src="script.js"></script>
 
 
   
