@@ -279,7 +279,7 @@ h3{
   }
 }
 
-/*------Causes-----*/
+/*------Causes Page-----*/
 
 .sub-header{
   height: 50vh;
@@ -315,4 +315,13 @@ h3{
 }
 .Causes-col p{
   padding: 15px 0 25px;
+}
+
+.red-btn{
+  border: 1px solid #6D765B;;
+  background: transparent;
+  color: #6D765B;
+}
+.red-btn:hover{
+  color: #fff;
 }
