@@ -250,13 +250,13 @@ h3{
 
 /*********Extra*********/
 
-.Extra{
+.Helping{
    width: 80%;
    margin: auto;
    padding-top: 100px;
    text-align: center;
  }
-.Extra-col{
+.Helping-col{
   flex-basis: 44%;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -266,14 +266,14 @@ h3{
   cursor: pointer;
   display: flex;
 }
-.Extra-col img{
+.Helping-col img{
   height: 40px;
   margin-left: 5px;
   margin-right: 30px;
   border-radius: 50%;
 }
 @media(max-width: 700px){
-  .Extra-col img{
+  .Helping-col img{
     margin-left: 0px;
     margin-right: 30px;
   }
@@ -325,3 +325,95 @@ h3{
 .red-btn:hover{
   color: #fff;
 }
+
+
+/*Consequences Page-----*/
+
+.sub-header{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Causesbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header h1{
+  margin-top: 100px;
+}
+
+.Consequences{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.Consequences-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.Consequences-col img{
+  width: 100%;
+}
+
+.Consequences-col h1{
+  padding-top: 0;
+}
+.Consequences-col p{
+  padding: 15px 0 25px;
+}
+
+.red-btn{
+  border: 1px solid #6D765B;;
+  background: transparent;
+  color: #6D765B;
+}
+.red-btn:hover{
+  color: #fff;
+
+/*Take Action Page-----*/
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Causesbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+.sub-header h1 {
+    margin-top: 100px;
+  }
+
+.Takeaction {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+.Takeaction-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+  }
+
+.Takeaction-col img {
+    width: 100%;
+  }
+
+.Takeaction-col h1 {
+    padding-top: 0;
+  }
+.Takeaction-col p {
+    padding: 15px 0 25px;
+  }
+
+.red-btn {
+    border: 1px solid #6D765B;;
+    background: transparent;
+    color: #6D765B;
+  }
+.red-btn:hover {
+    color: #fff;
